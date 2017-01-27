@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="15dp"
+    android:layout_height="match_parent"
+    tools:context="MainActivityTabFrags.PlannerFragment"
+    android:background="@drawable/background">
+
+    <Button
+        android:text="Create Family Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/breakfast_color"
+        android:layout_marginTop="60dp"
+        android:id="@+id/createGroupBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Join Family Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/breakfast_color"
+        android:id="@+id/joinGroupBtn"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/createGroupBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/goToPlan"
+        android:text="@string/planner_button"
+        android:backgroundTint="@color/breakfast_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/food_logo"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/joinGroupBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+
+</RelativeLayout>

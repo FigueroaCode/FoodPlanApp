@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "234815534864",
+    "firebase_url": "https://squareone-b0b12.firebaseio.com",
+    "project_id": "squareone-b0b12",
+    "storage_bucket": "squareone-b0b12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234815534864:android:ec3f60d688a8dc9b",
+        "android_client_info": {
+          "package_name": "com.personal.debrian.squareone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234815534864-tit1o55j2ivhq5n3auur3oamv02du495.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.personal.debrian.squareone",
+            "certificate_hash": "F7BB10B76C610B227A682F8EBEB4209717E463F2"
+          }
+        },
+        {
+          "client_id": "234815534864-fu9d6htk3b5siacmi00v2c376u5bkv43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLY3aBkf3E9HjJ7CNBS-_t-XOhu8MyWuk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234815534864-fu9d6htk3b5siacmi00v2c376u5bkv43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food Plan</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_food_plan">Food Plan</string>
+
+    <string name="create_button">Don\'t have an Account?</string>
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="nameInput">Name</string>
+    <string name="passwordInput">Password</string>
+    <string name="emailInput">Email</string>
+    <string name="foodInput">Enter Food</string>
+    <string name="breakfastRad">Breakfast</string>
+    <string name="lunchRad">Lunch</string>
+    <string name="dinnerRad">Dinner</string>
+    <string name="homeTitle">Recent Suggestion</string>
+    <string name="planner_button">See Planner</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

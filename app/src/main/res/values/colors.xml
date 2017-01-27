@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#2c3e50</color>
+    <color name="colorAccent">#3bdbf7</color>
+    <color name="breakfast_color">#fc9b46</color>
+    <color name="lunch_color">#49ddff</color>
+    <color name="dinner_color">#9e88ef</color>
+    <color name="background_color">#2980b9</color>
+    <color name="circle_color">#f25961</color>
+</resources>

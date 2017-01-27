@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/foodSuggestion"
+        android:hint="@string/foodInput"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:text="@string/breakfastRad"
+            android:buttonTint="@color/breakfast_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/breakfastRadio"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/lunchRad"
+            android:buttonTint="@color/lunch_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lunchRadio"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/dinnerRad"
+            android:buttonTint="@color/dinner_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dinnerRadio"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+
+</LinearLayout>
